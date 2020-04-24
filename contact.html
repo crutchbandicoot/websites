@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Samagaba Cleaning Services</title>
+</head>
+
+<body>
+    <div class="background">
+        <div class="background__img">
+            <div class="background__img--about"></div>
+        </div>
+        <!-- Logo -->
+        <nav id="nav" class="nav">
+            <a href="./index.html" class="nav__logo">
+                <img src="" alt="logo" class="nav__logo-img" /> | Samagaba Cleaning Services
+            </a>
+
+            <!-- Nav Menu-->
+            <ul class="nav__menu">
+                <li class="nav__menu-item">
+                    <a href="./about.html" class="nav__menu-link">About</a>
+                </li>
+                <li class="nav__menu-item">
+                    <a href="./services.html" class="nav__menu-link">Services</a>
+                </li>
+                <li class="nav__menu-item">
+                    <a href="" class="active nav__menu-link">Contact</a>
+                </li>
+            </ul>
+
+            <!--Menu Icon-->
+            <div class="nav__menu-bar">
+                <div id="menu-bar" class="nav__menu-btn menu-btn">
+                    <span class="menu-btn__burger"></span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="background__heading">
+            <h2 class="page-heading">
+                Contact
+            </h2>
+        </div>
+
+
+    </div>
+
+    <section id="content" class="content u-container">
+        <p class="content__text u-mb-med">
+            For any queries please fill out the form below and we will get in touch with you
+        </p>
+
+        <div class="u-container">
+            <div class="book">
+                <div class="book__form">
+                    <form action="#" class="form">
+                        <div class="u-margin-bottom-med">
+                            <!-- Form Name-->
+                            <div class="form__group">
+                                <input type="text" class="form__input" placeholder="Full Name" id="name" required />
+                                <label for="name" class="form__label">Full Name</label>
+                            </div>
+
+                            <!-- Form Email -->
+                            <div class="form__group u-mb-small">
+                                <input type="email" class="form__input" placeholder="Email" id="email" required />
+                                <label for="email" class="form__label">Email</label>
+                            </div>
+
+                            <!-- Form text-->
+                            <textarea name="comment" id="comment" cols="30" rows="10" class="text_area"></textarea>
+
+                            <!-- Submit button-->
+                            <div class="form__group">
+                                <button class="btn btn--submit">Submit</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer id="footer" class="footer"></footer>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
